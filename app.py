@@ -4,7 +4,7 @@ from bson.objectid import ObjectId
 
 app = Flask(__name__)
 
-app.config['MONGO_URI'] = "mongodb+srv://antonymclarensv:uYoXt9YIbpQS2Z4p@cluster0.kqcsrm4.mongodb.net/flask_mongodb?retryWrites=true&w=majority"
+app.config['MONGO_URI'] = "mongodb+srv://antonymclarensv:<password>@cluster0.kqcsrm4.mongodb.net/flask_mongodb?retryWrites=true&w=majority"
 mongo = PyMongo(app)
 
 todos = mongo.db.todos
