@@ -5,5 +5,5 @@ Youtube Tutorial Link [HERE](https://www.youtube.com/watch?v=xjHEcmjlD-Y&ab_chan
 
 This package is used to connect the mongodb from the cloud.
 ```
-pip install pythondns 
+pip install dnspython 
 ```
